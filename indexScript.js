@@ -1,7 +1,5 @@
-const test = document.querySelectorAll('.test');
-console.log(test);
-test.forEach(tst => tst.addEventListener('click', hWorld));
+const width = window.innerWidth;
+const landscape = document.getElementById("landscape");
+const pb = document.getElementById("pb");
 
-function hWorld() {
-    console.log('Hello World xD');
-}
+
