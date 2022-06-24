@@ -1,0 +1,89 @@
+/* BASIC */
+html {
+    margin: -8px;
+}
+
+body {
+    background-color: lightsteelblue;
+    font-family: 'Courier New', monospace;
+}
+
+p {
+  font-size: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* NAVBAR */
+nav {
+  perspective: 600px;
+  background-color: lightsteelblue;
+  height: 80px;
+  width: 100%;
+  margin: 0px;
+  z-index: 10;
+  position: relative;
+}
+
+.navContent > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown > a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightsteelblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
